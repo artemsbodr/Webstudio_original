@@ -9,7 +9,6 @@
   }
 
   .footer__logo {
-    text-align: left;
     display: block;
     font-weight: 700;
     font-size: 24px;
@@ -269,8 +268,8 @@
 
 @media screen and (min-width: 1200px) {
 .footer {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin: 0 auto;
     max-width: 1600px;
 
@@ -282,7 +281,7 @@
   }
 
   .footer__logo {
-    text-align: left;
+    text-align: start;
     display: block;
     color: $info-color;
     font-size: 26px;
