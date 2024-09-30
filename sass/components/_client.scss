@@ -1,0 +1,143 @@
+
+
+
+  .client {
+    padding-bottom: 60px;
+    padding-top: 60px;
+    margin: 0 auto;
+    max-width: 651px;
+  }
+
+  .client__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+
+  .client__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .client__item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 210px;
+    height: 92px;
+  }
+
+  .client__item:hover {
+    border-color: $accent-color;
+  }
+
+  .client__icon {
+    fill: #afb1b8;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .client__icon:hover {
+    fill: $accent-color;
+  }
+
+@media screen and (min-width: 768px) {
+  .client {
+    max-width: 834px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+
+  .client__title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    color: $main-color;
+    margin-bottom: 30px;
+  }
+
+  .client__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .client__item {
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 226px;
+    height: 92px;
+  }
+
+  .client__item:hover {
+    border-color: $accent-color;
+  }
+
+  .client__icon {
+    fill: #afb1b8;
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+  }
+
+  .client__icon:hover {
+    fill: $accent-color;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .client {
+      padding-bottom: 94px;
+      padding-top: 94px;
+          margin: 0 auto;
+            max-width: 1600px;
+    }
+  
+    .client__title {
+      font-family: "Roboto", sans-serif;
+      font-size: 36px;
+      text-align: center;
+      color: $main-color;
+      margin-bottom: 50px;
+    }
+  
+    .client__list {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 30px;
+    }
+  
+    .client__item {
+      border: 1px solid #afb1b8;
+      border-radius: 4px;
+      width: 170px;
+      height: 92px;
+    }
+  
+    .client__item:hover {
+      border-color: $accent-color;
+    }
+  
+    .client__icon {
+      fill: #afb1b8;
+      margin: 0 auto;
+      height: 100%;
+      width: 100%;
+    }
+  
+    .client__icon:hover {
+      fill: $accent-color;
+    }
+}

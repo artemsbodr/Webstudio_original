@@ -1,0 +1,15 @@
+%flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+%section-settings {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+%section-padding {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}

@@ -1,0 +1,4 @@
+@mixin gap($gap) {
+    display: flex;
+    column-gap: $gap;
+}
